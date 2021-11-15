@@ -1,4 +1,4 @@
-# WebCrawlerOrXSSWorm
+# Web-Crawler
 this is a exploit been used to attack victim.com, basing on a webcrawler , actually a XSS-Worm.
 
 Functionality:
