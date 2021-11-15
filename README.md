@@ -1,3 +1,13 @@
+<p align="center"> 
+    <b>Informations</b><br>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/BlacksCrows/Worm-Crawler?style=social">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/BlacksCrows/Worm-Crawler">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/BlacksCrows/Worm-Crawler">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Its-Vichy/Mirkat">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/BlacksCrows/Worm-Crawler?style=social">
+</p>
+
+
 # Web-Crawler
 this is a exploit been used to attack victim.com, basing on a webcrawler , actually a XSS-Worm.
 
